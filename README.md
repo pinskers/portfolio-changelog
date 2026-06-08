@@ -19,7 +19,7 @@ All notable changes to michellepinsky.work are documented here.
 - Removed now-unnecessary `id` attributes (`ai-label-gpt`, `ai-label-claude`) from former label paragraphs
 ### `style.css`
 - Fixed contrast failure on `.cs-hero-tag` (Think Piece, AI & Disability Inclusion tags): text color `#C8DEFF` → `#ffffff`, ratio against `#1f72b2` background improves from 3.73:1 to 4.60:1 (WCAG AA)
-- Fixed contrast failure on `--dim` across all case studies: `#767676` → `#707070`, ratio against `#f7f6f3` improves from 4.20:1 to 4.58:1 (WCAG AA); ratio against `#ffffff` is 4.74:1
+- Fixed contrast failure on `--dim` across all case studies: `#767676` → `#666`, ratio against `#f7f6f3` improves from 4.20:1 to 5.31:1 (WCAG AA); ratio against `#ffffff` is 5.74:1
 - Updated `--dim` custom property declaration and all 31 hardcoded `color: #767676` instances
 ---
  
