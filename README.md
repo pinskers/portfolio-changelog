@@ -3,7 +3,65 @@
 All notable changes to michellepinsky.work are documented here.
  
 ---
- 
+
+ ## [2026-06-08] — Screen reader fixes
+
+*Tested with JAWS*
+
+### Navigation and page structure
+
+- Fixed footer announcing before page content on load
+- Fixed region count announcing twice on load
+
+### `index.html`
+
+- Project cards rebuilt using the block link pattern — card content now reads as static text rather than link text, with a single named link per card
+- Filter tags and metric chips now read correctly
+- Password-protected cards now announce their protected status before navigation
+
+### All case studies
+
+- Section labels and hero tags were hidden from screen readers — now exposed
+- Figures: descriptions moved from `aria-label` on `<figure>` to `alt` on `<img>` for photo figures; `figcaption` repositioned after content where it had been placed before
+- Decorative elements (arrows, dividers, colour swatches, status dots, rule lines) marked `aria-hidden`
+
+### `case-study-cova-design-system.html`
+
+- `aria-hidden` removed from all coded component figures; component panels, colour swatch groups, buttons, cards, hero, tabs, and stat blocks now grouped with `role="group"` and descriptive labels
+- Semantic headings added to component demo panels per USWDS conventions
+- Agency theme palette rows, contrast audit rows, T4 constraint diagram, component spec table, and field schema mock UI all grouped and labelled
+
+### `case-study-darktide.html`
+
+- Listening tour center node was hidden — now exposed and grouped
+- Schedule table session blocks grouped by participant group
+- Affinity board and Discord session images: descriptions corrected to `alt` text
+
+### `case-study-beyond-audiogram.html`
+
+- All three journey map figures (AAA baseline, emotional hotspots, redesigned journey): phases and individual stages grouped and labelled; hotspot stages carry emotional context in their label; decorative arrows hidden
+- Themes grid columns grouped by phase
+- Journey map legend swatches marked decorative
+
+### `case-study-itc-register.html`
+
+- HB 2541 gap analysis columns grouped and labelled
+- Inbox chaos figures: Teams and email columns grouped; each message grouped by sender
+- Scoring model tier cards grouped and labelled
+- DevOps register: system work items and their child issues grouped together
+- Kanban board: lanes and individual cards grouped and labelled with tier
+- Work item detail view: main panel, sidebar, child issue list, metadata sections, and scoring all grouped and labelled
+
+### `case-study-vita-redesign.html`
+
+- Label comparison figure: column headers and each nav group (top-level, Policy & Governance, Procurement) grouped and labelled; flag swatch in caption marked decorative
+- Site architecture diagram: each section branch grouped with page count; decorative trunk and branch lines hidden; legend swatches marked decorative
+
+### `case-study-vt2-retrospective.html`
+
+- Findings grid: each content area card grouped and labelled with content name and verdict
+---
+
 ## [2026-06-08] — Accessibility fixes
  
 ### `index.html`
