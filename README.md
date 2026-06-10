@@ -4,6 +4,36 @@ All notable changes to michellepinsky.work are documented here.
  
 ---
 
+## [2026-06-10] - General fixes
+
+### index.html
+- Updated hero subtitle copy to reflect portfolio content: now references UX research, design leadership, accessibility, inclusive design, and regulated/high-governance environments with bolded key terms
+- Added `tabindex="-1"` to all `.card-arrow` divs; full-card click already handled by `.card-title a::after` overlay
+
+### about.html
+- Added Skills & Tooling section with four categories: Research, Design & Systems, Accessibility, Tools & Platforms (includes Dovetail, UserTesting, Claude)
+- Reordered page sections: Skills & Tooling moved between bio and Guiding Principles
+
+### case-study-vt2-retrospective.html
+- Added "View the full report" CTA button in hero section
+- Updated impact row; added 80.9% core player stat
+- Pulled methodology into its own dedicated `#methodology` section with structured tables for quantitative and qualitative approaches; sidenav updated to include new anchor
+- Additional survey figures surfaced from PDF report: platform split (97.8% PC), difficulty distribution (46.2% Legend), lapsed-player segment (42.5% hadn't played in 1+ month)
+
+### case-study-beyond-audiogram.html
+- Added "View the full academic paper" CTA button in hero section
+- Added journey mapping Miro board image (`images/journey-mapping-miro.png`) with caption in Process section
+- Added Figure 1: diverging Likert bar chart (7 statements, n=197, real CSV data) with per-segment percentage labels, staggered below-bar label rows, tick lines, and inline labels for very narrow segments; full screen reader `aria-label` with per-statement percentages
+- Added Figure 2: co-designer dot plot (Likert scores on 7–35 scale, 6 participants, avg 13.86 marked) with legend, descriptive figcaption, and screen reader `aria-label`
+
+### style.css
+- Added `.about-skills-wrap`, `.skills-grid`, `.skill-group-title`, `.skill-list` styles for About skills section; responsive at 768px (2-col) and 560px (1-col)
+- Fixed `.about-skills-wrap` alignment: now matches `.about-principles-wrap` padding structure (`max-width: 1120px`, `48px` horizontal padding)
+- Added `.cs-hero-actions` and `.btn-ghost--hero` for case study hero CTA buttons
+- Fixed `dt-cell-note` overflow in Darktide schedule table: added `min-width: 0`, `word-break`, `overflow-wrap`; widened note column from 120px to 140px in `dt-row` grid template
+
+---
+
  ## [2026-06-08] — Screen reader fixes
 
 *Tested with JAWS*
