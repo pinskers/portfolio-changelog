@@ -4,6 +4,20 @@ All notable changes to michellepinsky.work are documented here.
  
 ---
 
+## [2026-06-11] — General fixes
+
+### All case studies
+
+- Added an executive summary at the top of the main content for those with limited time
+
+### style.css
+- Fixed `.dt-cell-note:has(.dt-evening-tag)` specificity collision between `≤860px` and `≤560px` breakpoints; "Diary study begins" no longer overlaps AM/PM blocks when stacked at small screen sizes
+- Added `.cs-exec-summary`, `.cs-exec-summary-label`, `.cs-exec-summary-text` styles for grey executive summary box (`#F5F4F2` background, 8px border-radius)
+- Added `.card-title a` base styles (ink color, no underline at rest) and `.card:hover .card-title a` hover state (accent blue, underline)
+- Added `.card:hover .card-title .light` hover state to carry accent color through to grey subtitle span
+
+---
+
 ## [2026-06-10] - General fixes
 
 ### index.html
