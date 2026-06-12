@@ -4,6 +4,22 @@ All notable changes to michellepinsky.work are documented here.
  
 ---
 
+## [2026-06-12] — General fixes
+
+### All case studies
+
+- Adjusted some tags to be more semantically-structured for screen reader accuracy and navigation.
+- 
+### style.css
+- Adjusted some color contrast ratios to be WCAG 2.2 AA conformant.
+
+### vt2-retrospective.html
+- Full PDF report now password-protected.
+
+---
+
+---
+
 ## [2026-06-11] — General fixes
 
 ### All case studies
