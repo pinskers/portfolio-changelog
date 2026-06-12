@@ -13,7 +13,7 @@ All notable changes to michellepinsky.work are documented here.
 ### style.css
 - Adjusted some color contrast ratios to be WCAG 2.2 AA conformant.
 
-### vt2-retrospective.html
+### case-study-vt2-retrospective.html
 - Full PDF report now password-protected.
 
 ---
