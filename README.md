@@ -9,7 +9,7 @@ All notable changes to michellepinsky.work are documented here.
 ### All case studies
 
 - Adjusted some tags to be more semantically-structured for screen reader accuracy and navigation.
-- 
+  
 ### style.css
 - Adjusted some color contrast ratios to be WCAG 2.2 AA conformant.
 
