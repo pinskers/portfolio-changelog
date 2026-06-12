@@ -18,8 +18,6 @@ All notable changes to michellepinsky.work are documented here.
 
 ---
 
----
-
 ## [2026-06-11] — General fixes
 
 ### All case studies
