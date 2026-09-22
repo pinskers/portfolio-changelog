@@ -4,6 +4,14 @@ All notable changes to michellepinsky.work are documented here.
  
 ---
 
+## [2026-09-22] — Content additions
+
+### Writing
+
+- New article: "Deus ex Machina: Synthetic Users Amplify Persona Flaws and Discriminatory Experiences"
+- Moved previous article, "Can Artificial Intelligence Truly Understand Human Disability?" to Medium.com (https://medium.com/@Pinskers/can-artificial-intelligence-truly-understand-human-disability-a6c43899ff65).
+---
+
 ## [2026-06-12] — General fixes
 
 ### All case studies
