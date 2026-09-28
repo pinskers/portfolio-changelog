@@ -4,6 +4,58 @@ All notable changes to michellepinsky.work are documented here.
  
 ---
 
+## [2026-09-28] - Content additions and general fixes
+
+### Added
+- **All work page (`work.html`)**, replacing `projects.html`
+  - Every case study with a thumbnail, tags under the title, and category filters (Design / Research / Operations) beside the intro.
+  - Filters announce the number of results to screen readers.
+  - `projects.html` now redirects here, so old links keep working.
+- **Screen recordings in place of static screenshots**, each with a pause/play button. They play only while on screen and start paused when the visitor's system is set to reduce motion.
+  - ACR Evaluator: score review, PDAA profile review, DAC review, finalized report.
+  - SafeWatch: reporting a trigger, voting and My submissions, studio verification.
+- **ACR Evaluator case study:**
+  - New step 06, "The coordinator settles it", covering the DAC review.
+  - A permissions tree showing what each role can do, with DAC as a flag any role can carry.
+  - The principles are now numbered cards.
+- **Password-protected media:** images and videos for protected case studies are now also password protected.
+
+### Changed
+- **Navigation and labels:**
+  - Top navigation: "Projects" is now "Work".
+  - Homepage button: "View work" is now "View all work".
+  - Case study back links: "All projects" is now "All work".
+  - Bottom-of-page back links go to Selected Work (for case studies on the homepage) or All Work (for the others).
+- **Selected work cards:**
+  - Stat text is limited to two lines at every screen size.
+  - On narrower cards, stats stack as aligned rows.
+  - The ACR card's "AI-Assisted Scoring" tag is now "AI".
+- **Case study layout:**
+  - All case study images are now full width.
+  - ACR decision tree: outcome pills sit on their own line under each outcome name.
+- **Sitemap:**
+  - "All work" entry, with public case studies in All work order.
+  - Lock icons on protected case studies.
+  - The banner tag is removed, and the intro runs full width.
+  - The Writing description now links to Medium.
+- **Media location:** protected case study images and videos are now password protected.
+
+### Fixed
+- **Accessibility:** a WCAG 2.2 AA audit of all 15 pages took automated violations from 4 rule types down to 0.
+  - Footer links meet the 24px minimum target size.
+  - Reference links on the Writing page are underlined.
+  - No page scrolls sideways at 320px (fixes on SafeWatch and Writing).
+  - Alt text rewritten for 10 images that no longer matched their screenshots.
+  - Each recording now has a short accessible name, with its full description linked separately.
+- **SafeWatch figures:** a dark edge showing at the rounded corners is gone, and the phone screenshot's corner radius is reduced to match the other figures.
+- **All work page:** removed a stray closing tag in the page header.
+
+### Removed
+- 25 unused images (old ACR and SafeWatch screenshots replaced by recordings, and early SafeWatch mockups).
+- 3 ACR screenshots made redundant by the recordings.
+
+---
+
 ## [2026-09-22] — Content additions
 
 ### Writing
