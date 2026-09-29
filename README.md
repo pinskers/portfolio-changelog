@@ -4,6 +4,45 @@ All notable changes to michellepinsky.work are documented here.
  
 ---
 
+## [2026-09-29] — General fixes
+
+### Added
+- **SafeWatch case study:**
+  - A References section with full APA 7th-edition citations for all 24 sources. It replaces the short "Sources" line under the taxonomy comparison table.
+  - A "The product" section heading above the walkthrough.
+- **ACR Evaluator case study:** a "The product" section heading above the walkthrough.
+
+### Changed
+- **SafeWatch case study:**
+  - Rewrote Context, Problem, Research, How it works, Who can do what, the walkthrough steps and Outcome.
+  - Restructured the Taxonomy section: the sources comparison comes first, then the category definitions.
+  - The category diagram now lists the full 66-term vocabulary instead of four samples per category.
+  - Redesigned the thresholds diagram:
+    - Each stage is now two columns: the stage on the left, its thresholds on the right.
+    - The threshold values are aligned, and the badges line up with the stage headings.
+    - The arrow between stages is centered.
+    - An "or" divider marks Verified as an alternative route rather than a third stage.
+  - Removed the numbers from the walkthrough steps and the principle cards.
+- **ACR Evaluator case study:**
+  - Rewrote the summary, Context, Problem, the principles, the walkthrough steps with their captions, and Outcome.
+  - Removed the numbers from the walkthrough steps and the principle cards.
+  - The waiver caption now describes how the app actually records waivers.
+  - The "routes to a person" chip in the Blocked outcome now matches the spacing of the other chips.
+- **Homepage cards:** on phones, each stat number is vertically centered against its description.
+- **Footer:** centred on phones.
+
+### Fixed
+- **iPhone text size:** iPhone Safari no longer enlarges text in wide blocks. It had been blowing up the SafeWatch permissions table's group headings.
+- **Sidebar highlighting:** the case study sidebar now highlights the last section (e.g. Outcome) when it's clicked or when you reach the bottom of the page.
+- **Reference links:** long DOIs and URLs wrap on phones instead of making the page scroll sideways (SafeWatch and Writing).
+- **Citations:** corrected the in-text citation for the Twitch hate-raids study to its first author (Cai et al., 2023), and added the missing citation for the 2024 trigger-warning meta-analysis (Bridgland et al., 2024).
+- **Text fixes:** typos and punctuation throughout the SafeWatch case study ("SafeWatch" capitalization, curly quotes), plus the "evaluation" typo and a stray period in the ACR case study.
+
+### Removed
+- **SafeWatch case study:** the placement-rule diagram, whose caption and explanatory paragraph no longer matched it.
+
+---
+
 ## [2026-09-28] - Content additions and general fixes
 
 ### Added
