@@ -4,6 +4,13 @@ All notable changes to michellepinsky.work are documented here.
  
 ---
 
+## [2026-10-01] — Bug fix
+
+### Fixes
+- Fixed a bug that didn't allow the top nav's external LinkedIn profile link to style correctly on mobile devices.
+
+---
+
 ## [2026-09-29] — General fixes
 
 ### Added
